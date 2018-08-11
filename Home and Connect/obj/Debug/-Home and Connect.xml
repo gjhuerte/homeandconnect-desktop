@@ -1,0 +1,91 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+-Home and Connect
+</name>
+</assembly>
+<members>
+<member name="T:Home_and_Connect.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Home_and_Connect.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Home_and_Connect.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Home_and_Connect.tbl_transactionhistory">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Home_and_Connect.tbl_transactionhistory.tbl_transactionhistoryDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Home_and_Connect.tbl_transactionhistory.tbl_transactionhistoryRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Home_and_Connect.tbl_transactionhistory.tbl_transactionhistoryRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Home_and_Connect.tbl_transactionhistoryTableAdapters.tbl_transactionhistoryTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Home_and_Connect.tbl_transactionhistoryTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Home_and_Connect.tbl_transactionhistoryTableAdapters.TableAdapterManager.UpdateUpdatedRows(Home_and_Connect.tbl_transactionhistory,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Home_and_Connect.tbl_transactionhistoryTableAdapters.TableAdapterManager.UpdateInsertedRows(Home_and_Connect.tbl_transactionhistory,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Home_and_Connect.tbl_transactionhistoryTableAdapters.TableAdapterManager.UpdateDeletedRows(Home_and_Connect.tbl_transactionhistory,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Home_and_Connect.tbl_transactionhistoryTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Home_and_Connect.tbl_transactionhistoryTableAdapters.TableAdapterManager.UpdateAll(Home_and_Connect.tbl_transactionhistory)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Home_and_Connect.tbl_transactionhistoryTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Home_and_Connect.tbl_transactionhistoryTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
