@@ -1,0 +1,478 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D40176F0-005A-4A2D-9F13-731C4F3D98A2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Home_and_Connect.My.MyApplication</StartupObject>
+    <RootNamespace>Home_and_Connect</RootNamespace>
+    <AssemblyName>-Home and Connect</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Zero\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>-Home and Connect.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>-Home and Connect.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>homeandconnect.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>4A2158B923E12B561F35EF568116191FA731593F</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Home and Connect_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Infragistics4.Shared.v15.1, Version=15.1.20151.1000, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" />
+    <Reference Include="Infragistics4.Win.Misc.v15.1, Version=15.1.20151.1000, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics4.Win.UltraWinTabControl.v15.1, Version=15.1.20151.1000, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics4.Win.v15.1, Version=15.1.20151.1000, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" />
+    <Reference Include="MetroFramework, Version=1.3.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Daily Zero\Advanced Programming\Design\MetroFramework\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Daily Zero\Advanced Programming\Design\MetroFramework\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Daily Zero\Advanced Programming\Design\MetroFramework\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="UIAutomationTypes" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddNewBilling.Designer.vb">
+      <DependentUpon>AddNewBilling.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddNewBilling.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewHouse.Designer.vb">
+      <DependentUpon>AddNewHouse.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddNewHouse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewTenant.Designer.vb">
+      <DependentUpon>AddNewTenant.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddNewTenant.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrystalReport.Designer.vb">
+      <DependentUpon>CrystalReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CrystalReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomSplashScreen.Designer.vb">
+      <DependentUpon>CustomSplashScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CustomSplashScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.vb">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FindHouse.Designer.vb">
+      <DependentUpon>FindHouse.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FindHouse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FindTenant.Designer.vb">
+      <DependentUpon>FindTenant.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FindTenant.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.vb">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchBilling.Designer.vb">
+      <DependentUpon>SearchBilling.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SearchBilling.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tbl_transactionhistory.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tbl_transactionhistory.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TransactionReport.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TransactionReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserInformation.Designer.vb">
+      <DependentUpon>UserInformation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserInformation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="changeHouseStatus.Designer.vb">
+      <DependentUpon>changeHouseStatus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="changeHouseStatus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Commands.vb" />
+    <Compile Include="DeleteHouseInfo.Designer.vb">
+      <DependentUpon>DeleteHouseInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteHouseInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditExistingHouse.Designer.vb">
+      <DependentUpon>EditExistingHouse.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EditExistingHouse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditTenant.Designer.vb">
+      <DependentUpon>EditTenant.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EditTenant.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EvictTenant.Designer.vb">
+      <DependentUpon>EvictTenant.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EvictTenant.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HouseRent.Designer.vb">
+      <DependentUpon>HouseRent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HouseRent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.vb">
+      <DependentUpon>MainMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessageForm.Designer.vb">
+      <DependentUpon>MessageForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MessageForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="RemoveTenant.Designer.vb">
+      <DependentUpon>RemoveTenant.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RemoveTenant.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SqlInformation.vb" />
+    <Compile Include="Transaction.Designer.vb">
+      <DependentUpon>Transaction.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransferTenant.Designer.vb">
+      <DependentUpon>TransferTenant.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TransferTenant.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewHouseInformation.Designer.vb">
+      <DependentUpon>ViewHouseInformation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ViewHouseInformation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddNewBilling.resx">
+      <DependentUpon>AddNewBilling.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddNewHouse.resx">
+      <DependentUpon>AddNewHouse.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddNewTenant.resx">
+      <DependentUpon>AddNewTenant.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReport.resx">
+      <DependentUpon>CrystalReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomSplashScreen.resx">
+      <DependentUpon>CustomSplashScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FindHouse.resx">
+      <DependentUpon>FindHouse.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FindTenant.resx">
+      <DependentUpon>FindTenant.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchBilling.resx">
+      <DependentUpon>SearchBilling.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransactionReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TransactionReport.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInformation.resx">
+      <DependentUpon>UserInformation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="changeHouseStatus.resx">
+      <DependentUpon>changeHouseStatus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteHouseInfo.resx">
+      <DependentUpon>DeleteHouseInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditExistingHouse.resx">
+      <DependentUpon>EditExistingHouse.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditTenant.resx">
+      <DependentUpon>EditTenant.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EvictTenant.resx">
+      <DependentUpon>EvictTenant.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HouseRent.resx">
+      <DependentUpon>HouseRent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessageForm.resx">
+      <DependentUpon>MessageForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RemoveTenant.resx">
+      <DependentUpon>RemoveTenant.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction.resx">
+      <DependentUpon>Transaction.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransferTenant.resx">
+      <DependentUpon>TransferTenant.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewHouseInformation.resx">
+      <DependentUpon>ViewHouseInformation.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Home and Connect_TemporaryKey.pfx" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="tbl_transactionhistory.xsc">
+      <DependentUpon>tbl_transactionhistory.xsd</DependentUpon>
+    </None>
+    <None Include="tbl_transactionhistory.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>tbl_transactionhistory.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="tbl_transactionhistory.xss">
+      <DependentUpon>tbl_transactionhistory.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="homeandconnect.ico" />
+    <None Include="Resources\remove-user.png" />
+    <None Include="Resources\edit.png" />
+    <None Include="Resources\add.png" />
+    <None Include="Resources\Icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

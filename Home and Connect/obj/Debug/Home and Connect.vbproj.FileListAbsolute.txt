@@ -1,0 +1,71 @@
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\bin\Debug\-Home and Connect.exe.config
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\bin\Debug\-Home and Connect.exe.manifest
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\bin\Debug\-Home and Connect.application
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\bin\Debug\-Home and Connect.exe
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\bin\Debug\-Home and Connect.pdb
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\bin\Debug\-Home and Connect.xml
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\bin\Debug\FlashControlV71.dll
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\bin\Debug\Infragistics4.Shared.v15.1.dll
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\bin\Debug\Infragistics4.Win.Misc.v15.1.dll
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\bin\Debug\Infragistics4.Win.UltraWinTabControl.v15.1.dll
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\bin\Debug\Infragistics4.Win.v15.1.dll
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\bin\Debug\MetroFramework.Design.dll
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\bin\Debug\MetroFramework.dll
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\bin\Debug\MySql.Data.dll
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\bin\Debug\stdole.dll
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\bin\Debug\Infragistics4.Shared.v15.1.xml
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\bin\Debug\Infragistics4.Win.Misc.v15.1.xml
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\bin\Debug\Infragistics4.Win.UltraWinTabControl.v15.1.xml
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\bin\Debug\Infragistics4.Win.v15.1.xml
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\obj\Debug\Home_and_Connect.AddNewBilling.resources
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\obj\Debug\Home_and_Connect.AddNewHouse.resources
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\obj\Debug\Home_and_Connect.AddNewTenant.resources
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\obj\Debug\Home_and_Connect.CrystalReport.resources
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\obj\Debug\Home_and_Connect.CustomSplashScreen.resources
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\obj\Debug\Home_and_Connect.FindHouse.resources
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\obj\Debug\Home_and_Connect.FindTenant.resources
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\obj\Debug\Home_and_Connect.Form3.resources
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\obj\Debug\Home_and_Connect.Form4.resources
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\obj\Debug\Home_and_Connect.SearchBilling.resources
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\obj\Debug\Home_and_Connect.UserInformation.resources
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\obj\Debug\Home_and_Connect.changeHouseStatus.resources
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\obj\Debug\Home_and_Connect.DeleteHouseInfo.resources
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\obj\Debug\Home_and_Connect.EditExistingHouse.resources
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\obj\Debug\Home_and_Connect.EditTenant.resources
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\obj\Debug\Home_and_Connect.EvictTenant.resources
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\obj\Debug\Home_and_Connect.Form1.resources
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\obj\Debug\Home_and_Connect.Form2.resources
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\obj\Debug\Home_and_Connect.HouseRent.resources
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\obj\Debug\Home_and_Connect.Login.resources
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\obj\Debug\Home_and_Connect.MainMenu.resources
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\obj\Debug\Home_and_Connect.MessageForm.resources
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\obj\Debug\Home_and_Connect.Resources.resources
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\obj\Debug\Home_and_Connect.RemoveTenant.resources
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\obj\Debug\Home_and_Connect.Transaction.resources
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\obj\Debug\Home_and_Connect.TransferTenant.resources
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\obj\Debug\Home_and_Connect.ViewHouseInformation.resources
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\obj\Debug\Home and Connect.vbproj.GenerateResource.Cache
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\obj\Debug\-Home and Connect.exe.licenses
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\obj\Debug\-Home and Connect.exe.manifest
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\obj\Debug\-Home and Connect.application
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\obj\Debug\-Home and Connect.exe
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\obj\Debug\-Home and Connect.xml
+C:\Users\Zero\documents\visual studio 2015\Projects\Home and Connect\Home and Connect\obj\Debug\-Home and Connect.pdb
