@@ -152,12 +152,9 @@
                  "','" & bday & "','" & gender & "','" & MetroTextBox8.Text & "','" & MetroTextBox6.Text & "','" & type & "')")
                     MessageBox.Show("Account successfully created!", "Status",
                                     MessageBoxButtons.OK, MessageBoxIcon.Information)
-                ElseIf MetroButton1.Text = "Update" Then
-                    executeQuery("call sproc_updateuserinfo('" & MetroTextBox1.Text &
-                 "','" & MetroTextBox2.Text & "','" & MetroTextBox3.Text &
-                 "','" & bday & "','" & email & "','" & cellno &
-                 "','" & gender & "','" & MetroTextBox8.Text & "','" & MetroTextBox6.Text & "','" & type & "');")
                 Else
+                    executeQuery("UPDATE tbl_personalinfo SET ")
+                    executeQuery("UPDATE tbl_user SET")
                 End If
 
                 Timer1.Stop()

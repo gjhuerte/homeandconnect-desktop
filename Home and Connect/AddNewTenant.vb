@@ -17,7 +17,6 @@
                  insert into tbl_tenant select last_insert_id();") Then
                 Dim message = "Tenant '" + MetroTextBox2.Text + " " + MetroTextBox1.Text + "' added!"
                 MessageBox.Show(message, "Status", MessageBoxButtons.OK, MessageBoxIcon.Information)
-                MessageBox.Show("Do you want this tenant to assign to a house?", "Status", MessageBoxButtons.YesNo, MessageBoxIcon.Question)
                 Me.Close()
             Else
                 MessageBox.Show("System error1!", "Status", MessageBoxButtons.OK, MessageBoxIcon.Error)

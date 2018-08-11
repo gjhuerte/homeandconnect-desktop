@@ -12,10 +12,6 @@ Public Class Transaction
     End Sub
 
     Private Sub MetroButton1_Click(sender As Object, e As EventArgs) Handles MetroButton1.Click
-        search
-    End Sub
-
-    Sub search()
         If executeQuery("Select * from tbl_billinginfo where id = '" & MetroTextBox1.Text & "'") Then
             MessageBox.Show("Billing information found!", "Status", MessageBoxButtons.OK, MessageBoxIcon.Information)
             MetroPanel1.Visible = True
@@ -23,6 +19,7 @@ Public Class Transaction
             MessageBox.Show("Billing information not found!", "Status", MessageBoxButtons.OK, MessageBoxIcon.Error)
         End If
     End Sub
+
     Private Sub MetroButton3_Click(sender As Object, e As EventArgs) Handles MetroButton3.Click
         Try
             connection.ConnectionString = sqlinfo

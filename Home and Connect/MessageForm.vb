@@ -27,7 +27,6 @@ Public Class MessageForm
     End Sub
     Private Sub MessageForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         loadComPorts()
-        createTable("SELECT lastnamefirst AS 'Name', cellno AS 'Cellphone Number' FROM nametypes_v", MetroGrid1)
     End Sub
 
     Private Sub MetroComboBox1_SelectedValueChanged(sender As Object, e As EventArgs) Handles MetroComboBox1.SelectedValueChanged

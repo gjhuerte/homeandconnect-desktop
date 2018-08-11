@@ -1,40 +1,12 @@
 ﻿Imports MySql.Data.MySqlClient
 Public Class Form1
-    Dim editHouse As New AddNewBilling
+    Dim editHouse As New addNewBilling
     Private Sub MetroButton1_Click(sender As Object, e As EventArgs) Handles MetroButton1.Click
-        If MetroLabel1.Text = "Enter House ID" Then
-            If executeQuery("SELECT * FROM tbl_housedesc WHERE id = '" & MetroTextBox1.Text & "'") Then
-                Dim edit As New EditExistingHouse
-                edit.setHouseDesign("SELECT * FROM tbl_housedesc WHERE id = '" & MetroTextBox1.Text & "'")
-                edit.MetroTextBox3.Enabled = False
-                edit.MetroTextBox4.Enabled = False
-                edit.MetroTextBox5.Enabled = False
-                edit.MetroTextBox6.Enabled = False
-                edit.MetroTextBox7.Enabled = False
-                edit.MetroTextBox8.Enabled = False
-                edit.MetroTextBox2.Enabled = False
-                edit.MetroTextBox9.Enabled = False
-                edit.MetroTextBox1.Enabled = False
-                edit.MetroButton1.Visible = False
-                edit.MetroButton4.Visible = False
-                edit.MetroButton3.Visible = False
-                edit.MetroButton2.Visible = False
-                edit.MetroPanel1.Visible = True
-                Me.Close()
-                edit.ShowDialog()
-            Else
-                MessageBox.Show("House Information not found!", "Status", MessageBoxButtons.OK, MessageBoxIcon.Error)
-            End If
-
-        ElseIf MetroLabel1.Text = "Enter Billing ID below" Then
+        If MetroButton1.Text = "Search" Then
             setData()
         Else
-            If executeQuery(" ThenSelect * FROM tbl_billinginfo WHERE id = '" & MetroTextBox1.Text & "'") Then
-                executeQuery("call deleteBillingInfo('" & MetroTextBox1.Text & "')")
-                MessageBox.Show("Successfully deleted billing information", "Status", MessageBoxButtons.OK, MessageBoxIcon.Information)
-            Else
-                MessageBox.Show("Billing ID not found!", "Status", MessageBoxButtons.OK, MessageBoxIcon.Error)
-            End If
+            executeQuery("call deleteBillingInfo('" & MetroTextBox1.Text & "')")
+            MessageBox.Show("Successfully deleted billing information", "Status", MessageBoxButtons.OK, MessageBoxIcon.Information)
         End If
     End Sub
 

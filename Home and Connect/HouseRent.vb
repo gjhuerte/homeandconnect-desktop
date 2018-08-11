@@ -29,11 +29,12 @@
             MessageBox.Show("Need an advance payment to proceed!", "Status", MessageBoxButtons.OK, MessageBoxIcon.Error)
         ElseIf Not TryParse(MetroTextBox3.Text) Then
             MessageBox.Show("Must be a number greater than zero!", "Status", MessageBoxButtons.OK, MessageBoxIcon.Error)
-        Else
-            executeQuery("call sproc_rent('" & MetroTextBox1.Text & "','" & MetroTextBox2.Text & "'
-            , NOW(),'" & MetroComboBox1.SelectedItem & "','" & MetroTextBox3.Text & "')")
+        ElseIf executeQuery("call sproc_rent('" & MetroTextBox1.Text & "','" & MetroTextBox2.Text & "'
+            , NOW(),'" & MetroComboBox1.SelectedItem & "','" & MetroTextBox3.Text & "')") Then
             MessageBox.Show("House successfully rented!", "Status", MessageBoxButtons.OK, MessageBoxIcon.Information)
             Me.Close()
+        Else
+            MessageBox.Show("Theres an error in renting!", "Status", MessageBoxButtons.OK, MessageBoxIcon.Error)
         End If
     End Sub
 End Class
